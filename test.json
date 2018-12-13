@@ -1,0 +1,82 @@
+{
+	"id": 1,
+	"Name": "Ultra New Recipe 3",
+	"Active": 1,
+	"GroupID": 1,
+	"BatchMax": 100,
+	"BatchMin": 0,
+	"StepData": {
+		"2ef34a1b-f330-11e8-b107-069f50ec786e": {
+			"id": 1,
+			"Name": "step1",
+			"EMData": {
+				"EM_Agitate": {
+					"28": {
+						"id": 28,
+						"Type": "-1",
+						"Speed": 1,
+						"stepId": 1,
+						"FwdTime": 1,
+						"RevTime": 32,
+						"PauseTime": 2,
+						"isDeleted": false
+					}
+				}
+			},
+			"StepNum": 1,
+			"ProcName": "AgitateOnly",
+			"isDeleted": false,
+			"procedureID": 3,
+			"DescriptionText": "myfirststep"
+		},
+		"2ef34a2f-f330-11e8-b107-069f50ec786e": {
+			"id": 5,
+			"Name": "step 17",
+			"EMData": {
+				"EM_Agitate": {
+					"27": {
+						"id": 27,
+						"Type": "-1",
+						"Speed": 99,
+						"stepId": 5,
+						"FwdTime": 99,
+						"RevTime": 99,
+						"PauseTime": 99,
+						"isDeleted": false
+					}
+				}
+			},
+			"StepNum": 2,
+			"ProcName": "AgitateOnly",
+			"isDeleted": false,
+			"procedureID": 3,
+			"DescriptionText": "mysecondstep"
+		},
+		"2ef34a37-f330-11e8-b107-069f50ec786e": {
+			"id": 6,
+			"Name": "step 2",
+			"EMData": {
+				"EM_Agitate": {
+					"26": {
+						"id": 26,
+						"Type": "-1",
+						"Speed": 82,
+						"stepId": 6,
+						"FwdTime": 99,
+						"RevTime": 99,
+						"PauseTime": 43,
+						"isDeleted": false
+					}
+				}
+			},
+			"StepNum": 3,
+			"ProcName": "AgitateOnly",
+			"isDeleted": false,
+			"procedureID": 3,
+			"DescriptionText": "my second step"
+		}
+	},
+	"BatchSize": 15,
+	"LastUpdate": "Tue Nov 27 23:59:10 UTC 2018",
+	"site_recipeId": 5
+}
